@@ -5,13 +5,13 @@
     "version": "0.1.0"
   },
   "info": {
-    "label": "Software Developer",
+    "label": "Developer",
     "brief": "I am a 44-year-old all-round backend developer and productivity nerd interested in tackling infrastructure, automation and bot-related problems.",
     "image": "https://en.gravatar.com/userimage/8759527/ff228ae39fbd77eb76e4304eac676061.jpg?size=200",
     "quote": "Tell me and I forget, teach me and I may remember, involve me and I learn. ― Benjamin Franklin"
   },
   "contact": {
-    "website": "https://zmoog.github.io",
+    "website": "https://github.com/zmoog",
     "phone": "+39 348 7231834",
     "email": "maurizio.branca@gmail.com",
     "other": []
@@ -43,36 +43,42 @@
     "history": [
       {
         "employer": "Tierra Telematics",
+        "location": "Turin",
         "url": "https://www.tierratelematics.com",
         "position": "Lead Technical Specialist",
-        "summary": "I've experimented and made recommendations about the adoption of new technologies withing the development teams. Provided support on tecnical problems and mentorship with junior members",
+        "summary": "I've experimented and made recommendations to the development teams about the adoption of new technologies and tools. Provided support on tecnical problems and mentorship to junior members.",
         "start": "2017-11",
         "keywords": [
-          "Coaching",
           "AWS",
           "DevOps",
+          "Coaching",
+          "Bot",
           "Automation",
           "Terraform",
           "Ansible",
           "Jenkins"
         ],
         "highlights": [
-          "Setup a non-trivial AWS Organization with AWS SSO integrated with the company Active Directory.",
+          "Created a [Slack bot](https://github.com/zmoog/dickbott/tree/master/scripts/slack) using the [DickBott](https://github.com/zmoog/dickbott) serverless framework to [start/stop EC2](https://github.com/zmoog/dickbott/tree/master/scripts/aws/ec2), RDS or [drain Autoscaling Groups](https://github.com/zmoog/dickbott/tree/master/scripts/aws/autoscaling) to save resources (and money!) over the nights and weekends.",
+          "Automated the creation/destruction of the development environments for next-gen IoT platform on AWS using Terraform (provisioning), Ansible (coniguration management) and Jenkins+bot (orchestration).",
+          "Setup a non-trivial AWS Organization, AWS SSO (integrated with the company Active Directory) and on-premise integration using Transit Gateway and VPNs.",
           "Organized (and teached) multiple internal courses on AWS, Ansible and DevOps practices.",
-          "Sustained an automation mindset using build tools and bots."
+          "Sustained an automation mindset using build tools, bots and best practices."
         ]
       },
       {
         "employer": "Tierra Telematics",
+        "location": "Turin",
         "url": "https://www.tierratelematics.com",
         "position": "Software Developer",
-        "summary": "I've contribuited to the CNH platform as a backend and infrastructure engineer, helping to define a streamlined process to deliver the application releases to the client. Developed a fair amount of the AWS infrastructure as code of the next-gen plaform for fleet management.",
+        "summary": "I've contribuited to the CNH IoT platform as a backend and infrastructure engineer, helping to define a streamlined process to deliver the application releases to the client. Developed a fair amount of the AWS infrastructure as code of the next-gen plaform for fleet management.",
         "start": "2015-05",
         "end": "2017-11",
         "keywords": [
           "Java",
-          "Backend",
-          "Infrastructure-as-code",
+          "Spring Framework",
+          "Spring Security",
+          "Infrastructure as code",
           "AWS",
           "EC2",
           "Lambda",
@@ -82,13 +88,14 @@
           "Bot"
         ],
         "highlights": [
-          "Contribuited code and improved processes in the current-gen IoT platfoem for the CNH client.",
-          "Worked hard on the next-gen IoT plaform built on AWS to support a Godzillion number of devices.",
+          "Contribuited code and improved processes in the current-gen Java-based IoT platform for the client CNH.",
+          "Worked hard on the next-gen IoT plaform built on AWS to support a very large number of devices.",
           "Started to really love teaching to other team members."
         ]
       },
       {
         "employer": "Unbit",
+        "location": "Turin",
         "url": "http://unbit.it",
         "position": "Software Developer",
         "summary": "I've mostly built backend systems for various web sites and online shop using the Django web framework and Python language. Another major part here was coaching the younger team mates to improve their technical and organizational skills (this part war really fun and engaging!)",
@@ -110,30 +117,33 @@
       },
       {
         "employer": "Imago Italia",
+        "location": "Turin",
         "url": "",
         "position": "Software Developer",
-        "summary": "Built multiple ECM and BPM applications for clients in the telecomunication industry, mostly [TIM](https://www.tim.it) and affiliates.",
+        "summary": "Built multiple ECM and BPM applications for clients in the telecomunication industry, mostly [TIM](https://www.tim.it) and affiliates, using the Java language with the Spring Framework and related ecosystem.",
         "start": "2010-04",
         "end": "2014-09",
         "keywords": [
           "Java",
           "Spring",
+          "Framework",
           "Batch",
           "Integration",
           "Open-Source",
           "Linux"
         ],
         "highlights": [
-          "Built a strong relationship with the customer client providing effective solutions leveraging on the battle tested Java platform.",
-          "Entire applications built with open-source software.",
-          "A really really great team culture."
+          "Built a BPM solution for taking orders from Tibco, feed a contact center and than ship products using a courier. The system was completly Java based and built using Spring Framework, Spring Integration and Spring Batch.",
+          "Developed a BPM system to plan the periodic collection of the paper contracts signed by the consumers on the TIM stores in Italy and ship them to the central document wharehouse for scanning and long term storage. This was another Java based system, with a web frontend for backoffice users and integration service to send and receive data from the couriers.",
+          "Built a strong relationship with the client providing effective solutions leveraging on the battle tested Java platform and the Spring ecosystem."
         ]
       },
       {
         "employer": "Cooperativa Sociale Arcobaleno",
+        "location": "Turin",
         "url": "https://www.cooparcobaleno.net",
         "position": "Software Developer",
-        "summary": "I've developed APIs to export data from the legacy application for data visualizations and KPI. Started a prototype for a data collection projeect with device (C/C++) and backend (Python) code that it's still used today, after 10 years.",
+        "summary": "I've developed APIs to export data from the legacy application for data visualizations and KPI. Started a prototype for a data collection project with device (C/C++) and backend (Python) code that it's still used today, after 10 years.",
         "start": "2007-02",
         "end": "2010-04",
         "keywords": [
@@ -144,12 +154,14 @@
         ],
         "highlights": [
           "Replaced a bunch scheduled Excel workbooks with a modern Django web application providing real-time data.",
-          "Started a data collection prototype that it's saving manual data entry since 2009.",
+          "Added an API layer to access legacy data stored in an Oracle database using Java and Spring.",
+          "Started a data collection system prototype (both device and backend) that it's saving manual data entry since 2009.",
           "Enjoyed a totally different working environment."
         ]
       },
       {
-        "employer": "SCAI S.p.A.",
+        "employer": "SCAI",
+        "location": "Turin",
         "url": "http://www.grupposcai.it/en/",
         "position": "Software Developer",
         "summary": "I've worked on the backend systems for [CSI Piemonte](http://www.csipiemonte.it/web/en/), an Italian public sector ICT services provider focusing on the [Identity Management providers](http://www.sistemapiemonte.it/cms/pa/sicurezza).",
@@ -166,7 +178,8 @@
         ]
       },
       {
-        "employer": "Sistemi Informativi S.p.A. (State Street Bank)",
+        "employer": "Sistemi Informativi (State Street Bank)",
+        "location": "Turin",
         "url": "https://www.sistinf.it",
         "position": "Software Developer",
         "summary": "I've helped with the on-boarding the new client [State Street Bank](http://www.statestreet.com/about/office-locations/italy.html) on the company flagship product [XF](http://sistinf.it/en/offerta/soluzioni/xf-extended-financial-services.html).",
@@ -186,6 +199,7 @@
       },
       {
         "employer": "Sistemi Informativi (FCA)",
+        "location": "Turin",
         "url": "https://www.sistinf.it",
         "position": "Software Developer",
         "summary": "I was in the core team of the [Fiat Link](http://www.fiatpress.com/press/article/fiat-link-fiat-auto-s-innovative-sales-and-service-system) project, web based sales and service application in the FCA dealership around the world.",
@@ -225,6 +239,7 @@
       },
       {
         "employer": "Sistemi Informativi (Unicredit)",
+        "location": "Turin",
         "url": "https://www.sistinf.it",
         "position": "Software Developer",
         "summary": "This was a narrow focused gig: porting a well-established financial application from IBM WebShpere 3.x to 4.x.",
@@ -242,6 +257,7 @@
       },
       {
         "employer": "Sistemi Informativi (Reale Mutua Assicurazioni)",
+        "location": "Turin",
         "url": "https://www.sistinf.it",
         "position": "Software Developer",
         "summary": "Implemented few minor parts in the backend of a prototype web application for [Reale Mutua Assicurazione](https://www.realemutua.it).",
@@ -258,10 +274,11 @@
         ]
       },
       {
-        "employer": "Sistemi Informativi (Alenia Aeronautica)",
+        "employer": "Sistemi Informativi (Alenia)",
+        "location": "Turin",
         "url": "https://en.wikipedia.org/wiki/Alenia_Aeronautica",
         "position": "Software Developer",
-        "summary": "A summary of your previous role. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
+        "summary": "I've been the developer and maintainer of the import/export tools, used written in C++ for the IBM AIX platform, for the exchange of [Eurofighter Typhoon](https://en.wikipedia.org/wiki/Eurofighter_Typhoon) aircraft data and CAD models.",
         "start": "2000-09",
         "end": "2002-05",
         "keywords": [
@@ -270,13 +287,14 @@
           "PLM"
         ],
         "highlights": [
-          "Maintained a sync engine for the exchange of [ISO 10303 (STEP)](https://en.wikipedia.org/wiki/ISO_10303) product manufacturing informations between the members of [Eurofighter Typhoon](https://en.wikipedia.org/wiki/Eurofighter_Typhoon) consortium.",
+          "Maintained a sync engine for the exchange of [ISO 10303 (STEP)](https://en.wikipedia.org/wiki/ISO_10303) product manufacturing informations between the members of Eurofighter Typhoon consortium.",
           "Gained the trust of the engineering team that used the data synchronized by the other Eurofighter partners.",
           "Survived in a challenging environment."
         ]
       },
       {
         "employer": "Reboot Automation",
+        "location": "Turin",
         "url": "",
         "position": "Software Developer",
         "summary": "Maintained a warehouse management system for [Pininfarina](http://www.pininfarina.com/it/homepage/homepage.htm) automaker.",
@@ -349,8 +367,22 @@
         "level": "advanced",
         "skills": [
           "Java",
+          "Python",
+          "TypeScript",
           "Git",
           "Linux"
+        ]
+      },
+      {
+        "name": "Spring Ecosystem",
+        "level": "advanced",
+        "skills": [
+          "Framework",
+          "Integration",
+          "Batch",
+          "Security",
+          "Boot",
+          "Cloud"
         ]
       },
       {
@@ -358,36 +390,23 @@
         "level": "intermediate",
         "skills": [
           "Terraform",
-          "Python",
           "Ansible",
-          "TypeScript",
           "Jenkins",
           "Docker",
           "Networking"
         ]
       },
       {
-        "name": "Learning",
+        "name": "Learning Now",
         "level": "beginner",
         "skills": [
-          "Node.js",
           "RxJS",
-          "Serverless (toolkit)",
-          "C/C++"
+          "Serverless"
         ]
       }
     ],
     "list": []
   },
-  "writing": [
-    {
-      "title": "Weirdcode",
-      "flavor": "blog",
-      "date": "2019",
-      "summary": "I've just started the book [Technical Blogging: Turn Your Expertise into a Remarkable Online Presence](https://www.amazon.it/Technical-Blogging-Expertise-Remarkable-Presence/dp/1934356883/) by [Antonio Cangiano](https://antoniocangiano.com) and now I'm planning to stard a personal blog on automation, infrastructure and backend programming.",
-      "url": "https://zmoog.github.io"
-    }
-  ],
   "reading": [
     {
       "title": "The Devops Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations",
@@ -404,30 +423,28 @@
       "author": "Gene Kim, Kevin Behr, George Spafford.",
       "date": "2017-04-07",
       "summary": "Bill has 90 days to fix a behind-schedule IT project, or his entire department will be outsourced. Fortunately, he has the help of a prospective board member, whose 'Three Ways' philosophy might just save the day."
-    },
-    {
-      "title": "Deep Work: Rules for Focused Success in a Distracted World",
-      "flavor": "book",
-      "url": "https://www.amazon.it/Deep-Work-Focused-Success-Distracted/dp/0349411905/",
-      "author": "Cal Newport.",
-      "date": "2016-01-05",
-      "summary": "Many modern knowledge workers now spend most of their brain power battling distraction and interruption, whether because of the incessant pinging of devices, noisy open-plan offices or the difficulty of deciding what deserves your attention the most."
-    },
-    {
-      "title": "4 Disciplines of Execution: Getting Strategy Done",
-      "flavor": "book",
-      "url": "https://www.amazon.it/Disciplines-Execution-Getting-Strategy-Done/dp/0857205838/",
-      "author": "Chris McChesney, Sean Covey and Jim Huling.",
-      "date": "2015-07-21",
-      "summary": "This book talks about prioritized goals and how to achieve results with excellence.  It is important that team is involved in the development of important goals and methodology of measuring the goals."
     }
   ],
   "speaking": [
     {
+      "title": "Tutor",
+      "event": "Django Girls",
+      "location": "Turin, Italy",
+      "date": "2016-07",
+      "highlights": [
+      ],
+      "keywords": [
+        "django",
+        "ansible",
+        "automation"
+      ],
+      "summary": "I have been a tutor in the summer 2016 edition of Django Girls in Turin. Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources and support."
+    },    
+    {
       "title": "Automatizzare i deploy di applicazioni Django con Ansible",
-      "event": "PyCon 6",
+      "event": "PyCon",
       "location": "Florence, Italy",
-      "date": "2015-04-17",
+      "date": "2015-04",
       "highlights": [
         "Describes what Ansible is, what are its components (Playbook, Play, Inventory, Task and Module).",
         "In order to make the deployment operations accessible to non-technical members of the team, the use of a chat bot is proposed.",
@@ -440,6 +457,7 @@
       ],
       "summary": "This talk (in Italian, with [abstract](https://www.pycon.it/conference/talks/automatizzare-i-deploy-di-applicazioni-django-con-ansible) and the [complete YouTube video](https://www.youtube.com/watch?v=yRaL3IkBwNs) available) describes how it's possible to perform frequent and reliable deployments of Django-based web applications using Ansible."
     }
+
   ],
   "languages": [
     {
@@ -449,15 +467,6 @@
     {
       "language": "English",
       "level": "intermediate"
-    }
-  ],
-  "extracurricular": [
-    {
-      "title": "Django Girls — Turin",
-      "activity": "I have been a tutor in the summer 2016 edition of Django Girls in Turin. Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources and support.",
-      "location": "Turin, Italy",
-      "start": "2016-07-02",
-      "end": "2016-07-02"
     }
   ]
 }
