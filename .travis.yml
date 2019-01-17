@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "v10.15.0"
+
+install:
+  - npm install
+
+script:
+  - hackmyresume build resume.json TO out/resume.all -t positive
