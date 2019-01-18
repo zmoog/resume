@@ -12,4 +12,5 @@ install:
   - npm install
 
 script:
+  - ./node_modules/.bin/hackmyresume validate resume.json
   - ./node_modules/.bin/hackmyresume build resume.json TO out/resume.all -p weasyprint -t positive
