@@ -3,15 +3,13 @@ language: python
 python:
   - "3.6"
 
-node_js:
-  - "v10.15.0"
-
 before_install:
   - sudo apt-get install build-essential python3-dev python3-pip python3-setuptools python3-wheel python3-cffi libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+  - nvm install v10.15.0
 
 install:
-  - npm install
   - pip install WeasyPrint
+  - npm install
 
 script:
-  - hackmyresume build resume.json TO out/resume.all -p weasyprint -t positive
+  - ./node_modules/.bin/hackmyresume build resume.json TO out/resume.all -p weasyprint -t positive
