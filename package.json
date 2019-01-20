@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "hackmyresume build resume.json TO out/resume.all -p weasyprint -t positive",
     "test": "hackmyresume validate resume.json"
   },
   "author": "Maurizio Branca",

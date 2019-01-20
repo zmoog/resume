@@ -10,9 +10,8 @@ install:
 - pip install WeasyPrint
 - npm install
 script:
-- "./node_modules/.bin/hackmyresume validate resume.json"
-- "./node_modules/.bin/hackmyresume build resume.json TO out/resume.all -p weasyprint
-  -t positive"
+- "npm run test"
+- "npm run build"
 deploy:
   provider: s3
   access_key_id: AKIAJR2NKQSMDKSSIQSA
