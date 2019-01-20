@@ -59,8 +59,8 @@
           "Jenkins"
         ],
         "highlights": [
+          "I've completely automated the creation/destruction of the development environments for next-gen IoT platform on AWS using Terraform (provisioning), Ansible (coniguration management) and Jenkins+bot (orchestration).",
           "Created a [Slack bot](https://github.com/zmoog/dickbott/tree/master/scripts/slack) using the [DickBott](https://github.com/zmoog/dickbott) serverless framework to [start/stop EC2](https://github.com/zmoog/dickbott/tree/master/scripts/aws/ec2), RDS or [drain Autoscaling Groups](https://github.com/zmoog/dickbott/tree/master/scripts/aws/autoscaling) to save resources (and money!) over the nights and weekends and streamline the development processes.",
-          "Automated the creation/destruction of the development environments for next-gen IoT platform on AWS using Terraform (provisioning), Ansible (coniguration management) and Jenkins+bot (orchestration).",
           "Setup a non-trivial AWS Organization, AWS SSO (integrated with the company Active Directory) and on-premise integration using Transit Gateway and VPNs.",
           "Organized (and teached) multiple internal courses on AWS, Ansible and DevOps practices.",
           "Sustained an automation mindset using build tools, bots and best practices."
@@ -91,6 +91,7 @@
           "Contribuited code and improved processes in the current-gen Java-based IoT platform for the client CNH.",
           "Worked hard on the next-gen IoT plaform built on AWS to support a very large number of devices.",
           "Built a shared (micro) service to support enable/disabile SIMs and data service on mobile network providers used by the devices deployed on the field.",
+          "Setup multiple internal services (a complete [Zanata](http://zanata.org) server and a multiple nodes [Redis](https://redis.io/topics/cluster-tutorial) master-slave cluster /w automatic failover using Sentinels) on our on-premise data center using Ansible.",
           "Started to really love teaching to other team members."
         ]
       },
@@ -388,6 +389,7 @@
         "name": "Infrastructure",
         "level": "intermediate",
         "skills": [
+          "AWS",
           "Terraform",
           "Ansible",
           "Jenkins",
