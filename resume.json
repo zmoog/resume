@@ -59,7 +59,7 @@
           "Jenkins"
         ],
         "highlights": [
-          "Created a [Slack bot](https://github.com/zmoog/dickbott/tree/master/scripts/slack) using the [DickBott](https://github.com/zmoog/dickbott) serverless framework to [start/stop EC2](https://github.com/zmoog/dickbott/tree/master/scripts/aws/ec2), RDS or [drain Autoscaling Groups](https://github.com/zmoog/dickbott/tree/master/scripts/aws/autoscaling) to save resources (and money!) over the nights and weekends.",
+          "Created a [Slack bot](https://github.com/zmoog/dickbott/tree/master/scripts/slack) using the [DickBott](https://github.com/zmoog/dickbott) serverless framework to [start/stop EC2](https://github.com/zmoog/dickbott/tree/master/scripts/aws/ec2), RDS or [drain Autoscaling Groups](https://github.com/zmoog/dickbott/tree/master/scripts/aws/autoscaling) to save resources (and money!) over the nights and weekends and streamline the development processes.",
           "Automated the creation/destruction of the development environments for next-gen IoT platform on AWS using Terraform (provisioning), Ansible (coniguration management) and Jenkins+bot (orchestration).",
           "Setup a non-trivial AWS Organization, AWS SSO (integrated with the company Active Directory) and on-premise integration using Transit Gateway and VPNs.",
           "Organized (and teached) multiple internal courses on AWS, Ansible and DevOps practices.",
