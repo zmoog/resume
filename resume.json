@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Developer",
-    "brief": "I am a 44-year-old all-round backend developer and productivity nerd interested in tackling infrastructure, automation and bot-related problems.",
+    "brief": "I am a 44-year-old all-round Java backend developer and productivity nerd interested in tackling server side programming with Spring, infrastructure, automation and bot-related problems.",
     "image": "https://en.gravatar.com/userimage/8759527/ff228ae39fbd77eb76e4304eac676061.jpg?size=200",
     "quote": "Tell me and I forget, teach me and I may remember, involve me and I learn. ― Benjamin Franklin"
   },
@@ -90,6 +90,7 @@
         "highlights": [
           "Contribuited code and improved processes in the current-gen Java-based IoT platform for the client CNH.",
           "Worked hard on the next-gen IoT plaform built on AWS to support a very large number of devices.",
+          "Built a shared (micro) service to support enable/disabile SIMs and data service on mobile network providers used by the devices deployed on the field.",
           "Started to really love teaching to other team members."
         ]
       },
@@ -110,8 +111,8 @@
           "ecommerce"
         ],
         "highlights": [
-          "Finally working in a Python/Django shop fulltime.",
-          "Young and fast moving environment",
+          "Finally working in a Python/Django shop full-time.",
+          "Young and fast-moving work environment.",
           "Pushed my organizational skills to the limit with multiple small project streams."
         ]
       },
