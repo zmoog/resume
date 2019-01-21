@@ -24,4 +24,4 @@ deploy:
   acl: public_read
   on:
     repo: zmoog/resume
-    branch: feature/add-skills-and-previous-experiences
+    branch: master
