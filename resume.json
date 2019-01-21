@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Developer",
-    "brief": "I am a 44-year-old all-round Java backend developer and productivity nerd interested in tackling server side programming with Spring, infrastructure, automation and bot-related problems.",
+    "brief": "I am a 44-year-old all-round Java backend developer and productivity nerd interested in tackling server-side programming with Spring, infrastructure, automation, and bot-related problems.",
     "image": "https://en.gravatar.com/userimage/8759527/ff228ae39fbd77eb76e4304eac676061.jpg?size=200",
     "quote": "Tell me and I forget, teach me and I may remember, involve me and I learn. ― Benjamin Franklin"
   },
@@ -46,24 +46,24 @@
         "location": "Turin",
         "url": "https://www.tierratelematics.com",
         "position": "Lead Technical Specialist",
-        "summary": "I've experimented and made recommendations to the development teams about the adoption of new technologies and tools. Provided support on tecnical problems and mentorship to junior members.",
+        "summary": "I've experimented and made recommendations to the development teams about the adoption of new technologies and tools. I've Provided support on technical problems and mentorship to junior members.",
         "start": "2017-11",
         "keywords": [
-          "AWS",
-          "DevOps",
-          "Coaching",
-          "Bot",
-          "Automation",
-          "Terraform",
-          "Ansible",
+          "AWS,",
+          "DevOps,",
+          "Coaching,",
+          "Bot,",
+          "Automation,",
+          "Terraform,",
+          "Ansible,",
           "Jenkins"
         ],
         "highlights": [
-          "I've completely automated the creation/destruction of the development environments for next-gen IoT platform on AWS using Terraform (provisioning), Ansible (coniguration management) and Jenkins+bot (orchestration).",
+          "I've entirely automated the creation/destruction of the development environments for next-gen IoT platform on AWS using Terraform (provisioning), Ansible (configuration management) and Jenkins+bot (orchestration).",
           "Created a [Slack bot](https://github.com/zmoog/dickbott/tree/master/scripts/slack) using the [DickBott](https://github.com/zmoog/dickbott) serverless framework to [start/stop EC2](https://github.com/zmoog/dickbott/tree/master/scripts/aws/ec2), RDS or [drain Autoscaling Groups](https://github.com/zmoog/dickbott/tree/master/scripts/aws/autoscaling) to save resources (and money!) over the nights and weekends and streamline the development processes.",
           "Setup a non-trivial AWS Organization, AWS SSO (integrated with the company Active Directory) and on-premise integration using Transit Gateway and VPNs.",
-          "Organized (and teached) multiple internal courses on AWS, Ansible and DevOps practices.",
-          "Sustained an automation mindset using build tools, bots and best practices."
+          "I have organized (and taught) multiple internal courses on AWS, Ansible and DevOps practices.",
+          "I have nurtured an automation mindset using build tools, bots, and best practices."
         ]
       },
       {
@@ -71,28 +71,29 @@
         "location": "Turin",
         "url": "https://www.tierratelematics.com",
         "position": "Software Developer",
-        "summary": "I've contribuited to the CNH IoT platform as a backend and infrastructure engineer, helping to define a streamlined process to deliver the application releases to the client. Developed a fair amount of the AWS infrastructure as code of the next-gen plaform for fleet management.",
+        "summary": "I've contributed to the IoT platform for CNH as a Java backend and infrastructure engineer working on the Spring-based backend services and helped to define a streamlined process to deliver the application releases to the client. I have developed a fair amount of the Terraform code used to describe the cloud infrastructure of the next-gen platform for fleet management.",
         "start": "2015-05",
         "end": "2017-11",
         "keywords": [
-          "Java",
-          "Spring Framework",
-          "Spring Security",
-          "Infrastructure as code",
-          "AWS",
-          "EC2",
-          "Lambda",
-          "Kinesis",
-          "Jenkins",
-          "Automation",
+          "Java,",
+          "Spring Framework,",
+          "Spring Security,",
+          "Infrastructure as code,",
+          "AWS,",
+          "EC2,",
+          "Lambda,",
+          "Kinesis,",
+          "AWS IoT.",
+          "Jenkins,",
+          "Automation,",
           "Bot"
         ],
         "highlights": [
-          "Contribuited code and improved processes in the current-gen Java-based IoT platform for the client CNH.",
-          "Worked hard on the next-gen IoT plaform built on AWS to support a very large number of devices.",
-          "Built a shared (micro) service to support enable/disabile SIMs and data service on mobile network providers used by the devices deployed on the field.",
-          "Setup multiple internal services (a complete [Zanata](http://zanata.org) server and a multiple nodes [Redis](https://redis.io/topics/cluster-tutorial) master-slave cluster /w automatic failover using Sentinels) on our on-premise data center using Ansible.",
-          "Started to really love teaching to other team members."
+          "I have contributed Java code, infrastructure supervision and improved processes in the current-gen Java-based IoT platform for the client CNH.",
+          "I have worked on the serverless components using AWS IoT, Lambda functions, Kinesis Streams, and infrastructure for next-gen IoT platform built on AWS to support a massive number of devices.",
+          "Built a shared service to support the administrative operations (enable, disable, data usage, etc.) on the SIMs from the mobile network providers (KPN, Sprint) used by the devices deployed on the field.",
+          "Deployed multiple internal services (a complete [Zanata](http://zanata.org) server and multiple nodes [Redis](https://redis.io/topics/cluster-tutorial) master-slave cluster /w automatic failover using Sentinels) on our on-premise data center using Ansible.",
+          "Started to love teaching to other team members."
         ]
       },
       {
@@ -100,43 +101,43 @@
         "location": "Turin",
         "url": "http://unbit.it",
         "position": "Software Developer",
-        "summary": "I've mostly built backend systems for various web sites and online shop using the Django web framework and Python language. Another major part here was coaching the younger team mates to improve their technical and organizational skills (this part war really fun and engaging!)",
+        "summary": "I've mostly built backend systems for various websites and online shop using the [Django](https://www.djangoproject.com) web framework and Python language. Another significant part here was coaching the younger teammates to improve their technical and organizational skills (this part was enjoyable and engaging!)",
         "start": "2014-09",
         "end": "2015-05",
         "keywords": [
-          "python",
-          "django",
-          "git",
-          "coaching",
-          "web-agency",
-          "ecommerce"
+          "Python,",
+          "Django,",
+          "Git,",
+          "Coaching,",
+          "Web-agency,",
+          "Ecommerce,"
         ],
         "highlights": [
-          "Finally working in a Python/Django shop full-time.",
+          "I am finally working in a Python/Django shop full-time.",
           "Young and fast-moving work environment.",
-          "Pushed my organizational skills to the limit with multiple small project streams."
+          "This context has pushed my organizational skills to the limit tackling a large amount of multiple small project streams at the same time."
         ]
       },
       {
         "employer": "Imago Italia",
         "location": "Turin",
         "position": "Software Developer",
-        "summary": "Built multiple ECM and BPM applications for clients in the telecomunication industry, mostly [TIM](https://www.tim.it) and affiliates, using the Java language with the Spring Framework and related ecosystem.",
+        "summary": "I have built multiple ECM and BPM applications for clients in the telecommunications industry, mostly [TIM](https://www.tim.it) and affiliates, using the Java language with the Spring Framework and related ecosystem.",
         "start": "2010-04",
         "end": "2014-09",
         "keywords": [
-          "Java",
-          "Spring",
-          "Framework",
-          "Batch",
-          "Integration",
-          "Open-Source",
+          "Java,",
+          "Spring,",
+          "Framework,",
+          "Batch,",
+          "Integration,",
+          "Open-Source,",
           "Linux"
         ],
         "highlights": [
-          "Built a BPM solution for taking orders from Tibco, feed a contact center and than ship products using a courier. The system was completly Java based and built using Spring Framework, Spring Integration and Spring Batch.",
-          "Developed a BPM system to plan the periodic collection of the paper contracts signed by the consumers on the TIM stores in Italy and ship them to the central document wharehouse for scanning and long term storage. This was another Java based system, with a web frontend for backoffice users and integration service to send and receive data from the couriers.",
-          "Built a strong relationship with the client providing effective solutions leveraging on the battle tested Java platform and the Spring ecosystem."
+          "Built a BPM solution for taking orders from Tibco, feed a contact center and then ship products using a courier. The system was completely Java-based and made using Spring Framework, Spring Integration and Spring Batch.",
+          "It has developed a BPM system to plan the periodic collection of the paper contracts signed by the consumers on the TIM stores in Italy and ship them to the central document warehouse for scanning and long term storage. This application was another Java-based system, with a web frontend for back-office users and integration service to send and receive data from the couriers.",
+          "I have built a strong relationship with the client providing effective solutions leveraging on the battle-tested Java platform and the Spring ecosystem."
         ]
       },
       {
@@ -144,20 +145,20 @@
         "location": "Turin",
         "url": "https://www.cooparcobaleno.net",
         "position": "Software Developer",
-        "summary": "I've developed APIs to export data from the legacy application for data visualizations and KPI. Started a prototype for a data collection project with device (C/C++) and backend (Python) code that it's still used today, after 10 years.",
+        "summary": "I've developed APIs to export data from the legacy application for data visualizations and KPI. We've started a prototype for a data collection project with a device (with a C/C++ application onboard) and a backend API (written in Python) code that it's still used today, after ten years.",
         "start": "2007-02",
         "end": "2010-04",
         "keywords": [
-          "Java",
-          "Python",
-          "Django",
+          "Java,",
+          "Python,",
+          "Django,",
           "C/C++"
         ],
         "highlights": [
-          "Replaced a bunch scheduled Excel workbooks with a modern Django web application providing real-time data.",
-          "Added an API layer to access legacy data stored in an Oracle database using Java and Spring.",
+          "Replaced a bunch scheduled Excel workbooks with a modern [Django](https://www.djangoproject.com) web application providing real-time data.",
+          "Added an API layer to access an Oracle-based legacy database using Java and Spring.",
           "Started a data collection system prototype (both device and backend) that it's saving manual data entry since 2009.",
-          "Enjoyed a totally different working environment."
+          "I've enjoyed this different work environment."
         ]
       },
       {
@@ -169,9 +170,9 @@
         "start": "2005-07",
         "end": "2007-02",
         "keywords": [
-          "Java",
-          "Backend",
-          "Identity",
+          "Java,",
+          "Backend,",
+          "Identity,",
           "Security"
         ],
         "highlights": [
@@ -187,15 +188,15 @@
         "start": "2005-03",
         "end": "2005-07",
         "keywords": [
-          "Java",
-          "Networking",
-          "Linux",
+          "Java,",
+          "Networking,",
+          "Linux,",
           "Patience"
         ],
         "highlights": [
-          "Helped with the networking stuff between the web backend and and the AS400.",
-          "Repurposed old desktop PCs as a network devices using Linux in the early stages of the deployment (oh, some real fun!).",
-          "One day I'll can tell my nephews to have seen a real AS400."
+          "I have helped with the setup of the networking infrastructure between the Java-based web backend and the legacy AS400 system.",
+          "I have repurposed old desktop PCs as a network device using Linux in the early stages of the deployment (oh, there was some real fun here!).",
+          "One day I'll tell my nephews to have seen a real AS400."
         ]
       },
       {
@@ -203,18 +204,18 @@
         "location": "Turin",
         "url": "https://www.sistinf.it",
         "position": "Software Developer",
-        "summary": "I was in the core team of the [Fiat Link](http://www.fiatpress.com/press/article/fiat-link-fiat-auto-s-innovative-sales-and-service-system) project, web based sales and service application in the FCA dealership around the world.",
+        "summary": "I was in the core team of the [Fiat Link](http://www.fiatpress.com/press/article/fiat-link-fiat-auto-s-innovative-sales-and-service-system) project, web-based sales and service application in the FCA dealership around the world.",
         "start": "2003-10",
         "end": "2005-03",
         "keywords": [
-          "PHP",
-          "Linux",
+          "PHP,",
+          "Linux,",
           "Oracle"
         ],
         "highlights": [
-          "Worked on core parts of the system (i18n, taxes and more).",
-          "Huge (30+) and international development team.",
-          "The codebase was really massive and the daily work was really challenging (somewhat in a good way, I've learened a lot from thie experience)."
+          "I have worked on core parts of the system (i18n, taxes and more).",
+          "I've been part of a huge (30+) international development team.",
+          "The codebase was massive, and the daily work was challenging (somewhat in a good way because it ended up to learn a lot from this experience)."
         ]
       },
       {
@@ -222,20 +223,20 @@
         "location": "Rome",
         "url": "https://www.sistinf.it",
         "position": "Software Developer",
-        "summary": "I've designed few subsystems in the MSP (Motore Servizi Prepagato) application used by [TIM](https://www.tim.it) in the prepaid SIMs. In this project I haven't writted a single line of Java code and just using [Rational Rose](https://en.wikipedia.org/wiki/IBM_Rational_Rose_XDE) all day long.",
+        "summary": "I've designed few subsystems in the MSP (Motore Servizi Prepagato) application used by [TIM](https://www.tim.it) in the prepaid SIMs. In this project, I haven't written a single line of Java code and just using [Rational Rose](https://en.wikipedia.org/wiki/IBM_Rational_Rose_XDE) all day long.",
         "start": "2002-10",
         "end": "2003-10",
         "keywords": [
-          "UML",
-          "Rational Rose",
-          "Design",
-          "Java",
+          "UML,",
+          "Rational Rose,",
+          "Design,",
+          "Java,",
           "EJB"
         ],
         "highlights": [
           "First ever codeless work experience.",
-          "Working on a complex and missing-critical application is really challenging.",
-          "Developed new skills talking and writing design documents with a high profile cient."
+          "Working on a complex and missing-critical application is challenging.",
+          "I have developed new skills talking and writing design documents with a high profile client."
         ]
       },
       {
@@ -243,18 +244,18 @@
         "location": "Turin",
         "url": "https://www.sistinf.it",
         "position": "Software Developer",
-        "summary": "This was a narrow focused gig: porting a well-established financial application from IBM WebShpere 3.x to 4.x.",
+        "summary": "This gig was a narrowly focused one: porting a well-established financial application from IBM WebSphere 3.x to 4.x.",
         "start": "2002-07",
         "end": "2002-10",
         "keywords": [
-          "Java",
-          "IBM WebSpehere",
-          "WAR packaging",
+          "Java,",
+          "IBM WebSpehere,",
+          "WAR packaging,",
           "EJB"
         ],
         "highlights": [
-          "I've been exposed to the finance industry and its time-sensitive characteristics.",
-          "The most valuable skills were patience and attention to the details."
+          "I've explored the finance industry and its time-sensitive characteristics.",
+          "The most valuable skills ended up to be patience and attention to the details."
         ]
       },
       {
@@ -262,16 +263,16 @@
         "location": "Turin",
         "url": "https://www.sistinf.it",
         "position": "Software Developer",
-        "summary": "Implemented few minor parts in the backend of a prototype web application for [Reale Mutua Assicurazione](https://www.realemutua.it).",
+        "summary": "I have implemented a few minor parts in the backend of a prototype web application for [Reale Mutua Assicurazione](https://www.realemutua.it).",
         "start": "2002-05",
         "end": "2002-10",
         "keywords": [
-          "Java",
-          "EJB",
+          "Java,",
+          "EJB,",
           "Mainframe"
         ],
         "highlights": [
-          "This was my first exposure to the EJBs from J2EE platform.",
+          "This project was my first exposure to the EJBs from the J2EE platform.",
           "Complex integration with legacy systems written in COBOL language and running on an IBM mainframe."
         ]
       },
@@ -284,25 +285,25 @@
         "start": "2000-09",
         "end": "2002-05",
         "keywords": [
-          "C++",
-          "AIX",
+          "C++,",
+          "AIX,",
           "PLM"
         ],
         "highlights": [
-          "Maintained a sync engine for the exchange of [ISO 10303 (STEP)](https://en.wikipedia.org/wiki/ISO_10303) product manufacturing informations between the members of Eurofighter Typhoon consortium.",
+          "I have maintained a sync engine for the exchange of [ISO 10303 (STEP)](https://en.wikipedia.org/wiki/ISO_10303) product manufacturing pieces of information between the members of Eurofighter Typhoon consortium.",
           "Gained the trust of the engineering team that used the data synchronized by the other Eurofighter partners.",
-          "Survived in a challenging environment."
+          "I have survived in a challenging environment with little or no previous experience on the industry, the language, and the tools used."
         ]
       },
       {
         "employer": "Reboot Automation",
         "location": "Turin",
         "position": "Software Developer",
-        "summary": "Maintained a warehouse management system for [Pininfarina](http://www.pininfarina.com/it/homepage/homepage.htm) automaker.",
+        "summary": "I have maintained a warehouse management system for [Pininfarina](http://www.pininfarina.com/it/homepage/homepage.htm) automaker.",
         "start": "1999-05",
         "end": "2000-09",
         "keywords": [
-          "VisualBasic",
+          "VisualBasic,",
           "Oracle"
         ],
         "highlights": [
@@ -321,21 +322,21 @@
       "repo": "https://github.com/zmoog/dickbott",
       "media": [],
       "role": "Creator",
-      "summary": "Conceived, designed, implemented, and created a framework for serverless Slack bots with TypeScript language on AWS using DialogFlow for NLP.",
+      "summary": "Conceived, designed, implemented, and created a framework for serverless Slack bots with TypeScript language on AWS and using Google's [DialogFlow](https://dialogflow.com) for NLP.",
       "description": "",
       "highlights": [
-        "This framework has been used to build multiple bots for automations such as build/destroy application environments, start/stop EC2 instances, RDS database instance or just deliver infrastructure information to non technical people.",
-        "Serverless application that can run at no cost using the AWS free tier resources.",
-        "Contribuited to create and sustain an automation culture in the team and in the company.",
-        "I used it to automate some family-related tasks, such as check the balance on the kids school canteen or download the PDF version of the newspaper subscription and avoid their crappy app for iOS."
+        "This framework has been used to build multiple bots for automation such as build/destroy application environments, start/stop EC2 instances, RDS database instance or deliver infrastructure information to non-technical people.",
+        "Created a serverless application that can run at no cost using the AWS free tier resources.",
+        "Contributed to create and sustain an automation culture in the team and the company.",
+        "I used it to automate some family-related tasks, such as check the balance on the kid's school canteen or download the PDF version of the newspaper subscription and avoid their crappy app for iOS."
       ],
       "keywords": [
-        "Slack",
-        "Bot",
-        "TypeScript",
-        "Serverless",
-        "AWS",
-        "DialogFlow",
+        "Slack,",
+        "Bot,",
+        "TypeScript,",
+        "Serverless,",
+        "AWS,",
+        "DialogFlow,",
         "Lambda"
       ]
     }
@@ -353,9 +354,9 @@
         "grade": "42/60",
         "summary": "Graduate of Istituto Tecnico Industriale Statale, summer of 1994.",
         "curriculum": [
-          "Electronics",
-          "Algorithms",
-          "C",
+          "Electronics,",
+          "Algorithms,",
+          "C,",
           "Pascal"
         ]
       }
@@ -367,10 +368,10 @@
         "name": "Software Development",
         "level": "advanced",
         "skills": [
-          "Java",
-          "Python",
-          "TypeScript",
-          "Git",
+          "Java,",
+          "Python,",
+          "TypeScript,",
+          "Git,",
           "Linux"
         ]
       },
@@ -378,11 +379,11 @@
         "name": "Spring Ecosystem",
         "level": "advanced",
         "skills": [
-          "Framework",
-          "Integration",
-          "Batch",
-          "Security",
-          "Boot",
+          "Framework,",
+          "Integration,",
+          "Batch,",
+          "Security,",
+          "Boot,",
           "Cloud"
         ]
       },
@@ -390,19 +391,31 @@
         "name": "Infrastructure",
         "level": "intermediate",
         "skills": [
-          "AWS",
-          "Terraform",
-          "Ansible",
-          "Jenkins",
-          "Docker",
+          "AWS,",
+          "Terraform,",
+          "Ansible,",
+          "Jenkins,",
+          "Docker,",
           "Networking"
+        ]
+      },
+      {
+        "name": "Database",
+        "level": "intermediate",
+        "skills": [
+          "PostgreSQL,",
+          "MySQL,",
+          "Redis,",
+          "DynamoDB,",
+          "Oracle,",
+          "iBatis/myBatis"
         ]
       },
       {
         "name": "Learning Now",
         "level": "beginner",
         "skills": [
-          "RxJS",
+          "RxJS,",
           "Serverless"
         ]
       }
@@ -436,11 +449,11 @@
       "highlights": [
       ],
       "keywords": [
-        "django",
-        "ansible",
-        "automation"
+        "Django,",
+        "Ansible,",
+        "Coaching"
       ],
-      "summary": "I have been a tutor in the summer 2016 edition of Django Girls in Turin. Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources and support."
+      "summary": "I have been a tutor in the summer 2016 edition of [Django Girls in Turin](https://djangogirls.org/turin/). Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources, and support."
     },    
     {
       "title": "Automatizzare i deploy di applicazioni Django con Ansible",
@@ -448,14 +461,14 @@
       "location": "Florence, Italy",
       "date": "2015-04",
       "highlights": [
-        "Describes what Ansible is, what are its components (Playbook, Play, Inventory, Task and Module).",
-        "In order to make the deployment operations accessible to non-technical members of the team, the use of a chat bot is proposed.",
-        "Using Ansible the deployment process remains well described and always up-to-date."
+        "Describes what Ansible is, what are its components (Playbook, Play, Inventory, Task, and Module).",
+        "Make the deployment operations accessible to non-technical members of the team, and propose the use of a chatbot.",
+        "Using Ansible for the deployment process remains well described and always up-to-date."
       ],
       "keywords": [
-        "django",
-        "ansible",
-        "automation"
+        "Django,",
+        "Ansible,",
+        "Automation"
       ],
       "summary": "This talk (in Italian, with [abstract](https://www.pycon.it/conference/talks/automatizzare-i-deploy-di-applicazioni-django-con-ansible) and the [complete YouTube video](https://www.youtube.com/watch?v=yRaL3IkBwNs) available) describes how it's possible to perform frequent and reliable deployments of Django-based web applications using Ansible."
     }
