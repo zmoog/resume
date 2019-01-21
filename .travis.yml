@@ -1,0 +1,27 @@
+language: python
+python:
+- '3.6'
+before_install:
+- sudo apt-get install build-essential python3-dev python3-pip python3-setuptools
+  python3-wheel python3-cffi libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0
+  libffi-dev shared-mime-info fonts-font-awesome
+- nvm install v10.15.0
+install:
+- pip install WeasyPrint
+- npm install
+script:
+- npm run test
+- npm run build
+deploy:
+  provider: s3
+  access_key_id: AKIAJR2NKQSMDKSSIQSA
+  secret_access_key:
+    secure: XL/GLPFmsLyTQjRa0pNhYS6D+tsuyY1ZsG4Ozo7FhUPvf2kv+54xtz7s2e0cq+4Vsf+uHh0gd5vdb7A9S17VDKCcPwbrhdmKFPpPmqyyO8zHqMX1NTNzX9iJ0w2XVVidnT0/ACAXccB9nLVitjY0CI3dqAEbVWBf0AKDEOStRcdTzHDmIetLtp1bIhpz2YGwc/g868mNe8Q7sukZSsCVc3z4bjQCEqhLONkk7RYwRULkmlkBcoZsa7k4qu0oRZ3ydV3ceEW8ExYxYOQSS/oCsi+VNVte+RYbtXCUCJu7BByOIORbt0xQ6P2Iu3jewrHqe3l7MmN2Y2VMj0On0nGnXs8IfER7fnO/H543vOX/3PtBPWaPowV/o1eNfozWsulSfEvNXQqJXgWRh+jzuw2y/RGt/IN576bGEMkL0jqMoJ/QKPZ9B5dQaRqcBVJs8w2DbVq4eNbEnWeTYv3y82213RmUkrbLkVfIeQD8daJrwvZKbSPP/W2gF/2xURfQqYnCieaf6bNlEjlx7L4UXM36FqFiG7lV6JQX2gS3sPMxdLTtwuCGWhfE/2PNm7FwDFyI113oC2zMW+rLacT1jxpPrsg3YoCmnFeqcLg4h4pVmFsqtX4ErBT2wgDUo6nadSuysvgBRgrtynQeGXIvuUVcMCBiNuG1bxIk+K5OfkujPqE=
+  bucket: zmoog-resume
+  skip_cleanup: true
+  local-dir: out
+  upload-dir: out
+  acl: public_read
+  on:
+    repo: zmoog/resume
+    branch: feature/add-skills-and-previous-experiences

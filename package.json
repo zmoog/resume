@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hackmyresume build resume.json TO out/resume.all -p weasyprint -t positive",
+    "test": "hackmyresume validate resume.json"
+  },
+  "author": "Maurizio Branca",
+  "license": "MIT",
+  "dependencies": {
+    "hackmyresume": "^1.9.0-beta"
+  }
+}

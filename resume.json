@@ -1,358 +1,487 @@
 {
-  "name": "Your Name",
+  "name": "Maurizio Branca",
   "meta": {
     "format": "FRESH@0.6.0",
     "version": "0.1.0"
   },
   "info": {
-    "label": "Your Profession",
-    "brief": "A brief description of yourself as a candidate that appears in some résumé themes. You may use **Markdown** and/or <strong>HTML</strong> formatting here including [links](https://en.wikipedia.org/wiki/Special:Random) or stick to plain text.",
-    "image": ""
+    "label": "Developer",
+    "brief": "I am a 44-year-old all-round Java backend developer and productivity nerd interested in tackling server-side programming with Spring, infrastructure, automation, and bot-related problems.",
+    "image": "https://en.gravatar.com/userimage/8759527/ff228ae39fbd77eb76e4304eac676061.jpg?size=200",
+    "quote": "Tell me and I forget, teach me and I may remember, involve me and I learn. ― Benjamin Franklin"
   },
   "contact": {
-    "website": "http://your-website.com",
-    "phone": "1-999-999-9999",
-    "email": "your-email@your-website.com",
+    "website": "https://github.com/zmoog",
+    "phone": "+39 348 7231834",
+    "email": "maurizio.branca@gmail.com",
     "other": []
   },
   "location": {
-    "address": "123 Somewhere Lane",
-    "city": "Castle Rock",
-    "region": "State, province, or region",
-    "code": "90210",
-    "country": "US"
+    "address": "Viale della Madonnina 16",
+    "city": "Verolengo",
+    "region": "Piedmont",
+    "code": "10038",
+    "country": "IT"
   },
+  "remote": true,
   "social": [
     {
       "label": "",
       "network": "GitHub",
-      "user": "your-github-username",
-      "url": "https://github.com/your-github-username"
+      "user": "zmoog",
+      "url": "https://github.com/zmoog"
+    },
+    {
+      "label": "",
+      "network": "Twitter",
+      "user": "zmoog",
+      "url": "https://twitter.com/zmoog"
     }
   ],
   "employment": {
     "summary": "Optional overall employment summary. Not used in most themes.",
     "history": [
       {
-        "employer": "Most Recent Employer",
-        "url": "http://employer-website.com",
-        "position": "Head Honcho",
-        "summary": "A summary of your role in this position. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "start": "2013-10",
+        "employer": "Tierra Telematics",
+        "location": "Turin",
+        "url": "https://www.tierratelematics.com",
+        "position": "Lead Technical Specialist",
+        "summary": "I've experimented and made recommendations to the development teams about the adoption of new technologies and tools. I've Provided support on technical problems and mentorship to junior members.",
+        "start": "2017-11",
         "keywords": [
-          "spin widgets",
-          "CRM",
-          "PM",
-          "Ninjitsu",
-          "Six Sigma"
+          "AWS,",
+          "DevOps,",
+          "Coaching,",
+          "Bot,",
+          "Automation,",
+          "Terraform,",
+          "Ansible,",
+          "Jenkins"
         ],
         "highlights": [
-          "Increased profits on left-handed spin widgets by 35%.",
-          "Participated in iterative/incremental devolution.",
-          "Promoted to Head Ninja after 500 successful cage matches."
+          "I've entirely automated the creation/destruction of the development environments for next-gen IoT platform on AWS using Terraform (provisioning), Ansible (configuration management) and Jenkins+bot (orchestration).",
+          "Created a [Slack bot](https://github.com/zmoog/dickbott/tree/master/scripts/slack) using the [DickBott](https://github.com/zmoog/dickbott) serverless framework to [start/stop EC2](https://github.com/zmoog/dickbott/tree/master/scripts/aws/ec2), RDS or [drain Autoscaling Groups](https://github.com/zmoog/dickbott/tree/master/scripts/aws/autoscaling) to save resources (and money!) over the nights and weekends and streamline the development processes.",
+          "Setup a non-trivial AWS Organization, AWS SSO (integrated with the company Active Directory) and on-premise integration using Transit Gateway and VPNs.",
+          "I have organized (and taught) multiple internal courses on AWS, Ansible and DevOps practices.",
+          "I have nurtured an automation mindset using build tools, bots, and best practices."
         ]
       },
       {
-        "employer": "Previous Employer",
-        "url": "http://employer-website.com",
-        "position": "Worker Bee",
-        "summary": "A summary of your previous role. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "start": "2009-07",
-        "end": "2013-10",
+        "employer": "Tierra Telematics",
+        "location": "Turin",
+        "url": "https://www.tierratelematics.com",
+        "position": "Software Developer",
+        "summary": "I've contributed to the IoT platform for CNH as a Java backend and infrastructure engineer working on the Spring-based backend services and helped to define a streamlined process to deliver the application releases to the client. I have developed a fair amount of the Terraform code used to describe the cloud infrastructure of the next-gen platform for fleet management.",
+        "start": "2015-05",
+        "end": "2017-11",
         "keywords": [
-          "keyword1",
-          "KW2",
-          "KW2++",
-          "YAKW"
+          "Java,",
+          "Spring Framework,",
+          "Spring Security,",
+          "Infrastructure as code,",
+          "AWS,",
+          "EC2,",
+          "Lambda,",
+          "Kinesis,",
+          "AWS IoT.",
+          "Jenkins,",
+          "Automation,",
+          "Bot"
         ],
         "highlights": [
-          "Highlight #1.",
-          "Highlight #2.",
-          "Highlight #3."
+          "I have contributed Java code, infrastructure supervision and improved processes in the current-gen Java-based IoT platform for the client CNH.",
+          "I have worked on the serverless components using AWS IoT, Lambda functions, Kinesis Streams, and infrastructure for next-gen IoT platform built on AWS to support a massive number of devices.",
+          "Built a shared service to support the administrative operations (enable, disable, data usage, etc.) on the SIMs from the mobile network providers (KPN, Sprint) used by the devices deployed on the field.",
+          "Deployed multiple internal services (a complete [Zanata](http://zanata.org) server and multiple nodes [Redis](https://redis.io/topics/cluster-tutorial) master-slave cluster /w automatic failover using Sentinels) on our on-premise data center using Ansible.",
+          "Started to love teaching to other team members."
+        ]
+      },
+      {
+        "employer": "Unbit",
+        "location": "Turin",
+        "url": "http://unbit.it",
+        "position": "Software Developer",
+        "summary": "I've mostly built backend systems for various websites and online shop using the [Django](https://www.djangoproject.com) web framework and Python language. Another significant part here was coaching the younger teammates to improve their technical and organizational skills (this part was enjoyable and engaging!)",
+        "start": "2014-09",
+        "end": "2015-05",
+        "keywords": [
+          "Python,",
+          "Django,",
+          "Git,",
+          "Coaching,",
+          "Web-agency,",
+          "Ecommerce,"
+        ],
+        "highlights": [
+          "I am finally working in a Python/Django shop full-time.",
+          "Young and fast-moving work environment.",
+          "This context has pushed my organizational skills to the limit tackling a large amount of multiple small project streams at the same time."
+        ]
+      },
+      {
+        "employer": "Imago Italia",
+        "location": "Turin",
+        "position": "Software Developer",
+        "summary": "I have built multiple ECM and BPM applications for clients in the telecommunications industry, mostly [TIM](https://www.tim.it) and affiliates, using the Java language with the Spring Framework and related ecosystem.",
+        "start": "2010-04",
+        "end": "2014-09",
+        "keywords": [
+          "Java,",
+          "Spring,",
+          "Framework,",
+          "Batch,",
+          "Integration,",
+          "Open-Source,",
+          "Linux"
+        ],
+        "highlights": [
+          "Built a BPM solution for taking orders from Tibco, feed a contact center and then ship products using a courier. The system was completely Java-based and made using Spring Framework, Spring Integration and Spring Batch.",
+          "It has developed a BPM system to plan the periodic collection of the paper contracts signed by the consumers on the TIM stores in Italy and ship them to the central document warehouse for scanning and long term storage. This application was another Java-based system, with a web frontend for back-office users and integration service to send and receive data from the couriers.",
+          "I have built a strong relationship with the client providing effective solutions leveraging on the battle-tested Java platform and the Spring ecosystem."
+        ]
+      },
+      {
+        "employer": "Cooperativa Sociale Arcobaleno",
+        "location": "Turin",
+        "url": "https://www.cooparcobaleno.net",
+        "position": "Software Developer",
+        "summary": "I've developed APIs to export data from the legacy application for data visualizations and KPI. We've started a prototype for a data collection project with a device (with a C/C++ application onboard) and a backend API (written in Python) code that it's still used today, after ten years.",
+        "start": "2007-02",
+        "end": "2010-04",
+        "keywords": [
+          "Java,",
+          "Python,",
+          "Django,",
+          "C/C++"
+        ],
+        "highlights": [
+          "Replaced a bunch scheduled Excel workbooks with a modern [Django](https://www.djangoproject.com) web application providing real-time data.",
+          "Added an API layer to access an Oracle-based legacy database using Java and Spring.",
+          "Started a data collection system prototype (both device and backend) that it's saving manual data entry since 2009.",
+          "I've enjoyed this different work environment."
+        ]
+      },
+      {
+        "employer": "SCAI",
+        "location": "Turin",
+        "url": "http://www.grupposcai.it/en/",
+        "position": "Software Developer",
+        "summary": "I've worked on the backend systems for [CSI Piemonte](http://www.csipiemonte.it/web/en/), an Italian public sector ICT services provider focusing on the [Identity Management providers](http://www.sistemapiemonte.it/cms/pa/sicurezza).",
+        "start": "2005-07",
+        "end": "2007-02",
+        "keywords": [
+          "Java,",
+          "Backend,",
+          "Identity,",
+          "Security"
+        ],
+        "highlights": [
+          "Learned to tackle the complexity of the rules and relations in a public sector company."
+        ]
+      },
+      {
+        "employer": "Sistemi Informativi (State Street Bank)",
+        "location": "Turin",
+        "url": "https://www.sistinf.it",
+        "position": "Software Developer",
+        "summary": "I've helped with the on-boarding the new client [State Street Bank](http://www.statestreet.com/about/office-locations/italy.html) on the company flagship product [XF](http://sistinf.it/en/offerta/soluzioni/xf-extended-financial-services.html).",
+        "start": "2005-03",
+        "end": "2005-07",
+        "keywords": [
+          "Java,",
+          "Networking,",
+          "Linux,",
+          "Patience"
+        ],
+        "highlights": [
+          "I have helped with the setup of the networking infrastructure between the Java-based web backend and the legacy AS400 system.",
+          "I have repurposed old desktop PCs as a network device using Linux in the early stages of the deployment (oh, there was some real fun here!).",
+          "One day I'll tell my nephews to have seen a real AS400."
+        ]
+      },
+      {
+        "employer": "Sistemi Informativi (FCA)",
+        "location": "Turin",
+        "url": "https://www.sistinf.it",
+        "position": "Software Developer",
+        "summary": "I was in the core team of the [Fiat Link](http://www.fiatpress.com/press/article/fiat-link-fiat-auto-s-innovative-sales-and-service-system) project, web-based sales and service application in the FCA dealership around the world.",
+        "start": "2003-10",
+        "end": "2005-03",
+        "keywords": [
+          "PHP,",
+          "Linux,",
+          "Oracle"
+        ],
+        "highlights": [
+          "I have worked on core parts of the system (i18n, taxes and more).",
+          "I've been part of a huge (30+) international development team.",
+          "The codebase was massive, and the daily work was challenging (somewhat in a good way because it ended up to learn a lot from this experience)."
+        ]
+      },
+      {
+        "employer": "Sistemi Informativi (TIM)",
+        "location": "Rome",
+        "url": "https://www.sistinf.it",
+        "position": "Software Developer",
+        "summary": "I've designed few subsystems in the MSP (Motore Servizi Prepagato) application used by [TIM](https://www.tim.it) in the prepaid SIMs. In this project, I haven't written a single line of Java code and just using [Rational Rose](https://en.wikipedia.org/wiki/IBM_Rational_Rose_XDE) all day long.",
+        "start": "2002-10",
+        "end": "2003-10",
+        "keywords": [
+          "UML,",
+          "Rational Rose,",
+          "Design,",
+          "Java,",
+          "EJB"
+        ],
+        "highlights": [
+          "First ever codeless work experience.",
+          "Working on a complex and missing-critical application is challenging.",
+          "I have developed new skills talking and writing design documents with a high profile client."
+        ]
+      },
+      {
+        "employer": "Sistemi Informativi (Unicredit)",
+        "location": "Turin",
+        "url": "https://www.sistinf.it",
+        "position": "Software Developer",
+        "summary": "This gig was a narrowly focused one: porting a well-established financial application from IBM WebSphere 3.x to 4.x.",
+        "start": "2002-07",
+        "end": "2002-10",
+        "keywords": [
+          "Java,",
+          "IBM WebSpehere,",
+          "WAR packaging,",
+          "EJB"
+        ],
+        "highlights": [
+          "I've explored the finance industry and its time-sensitive characteristics.",
+          "The most valuable skills ended up to be patience and attention to the details."
+        ]
+      },
+      {
+        "employer": "Sistemi Informativi (Reale Mutua Assicurazioni)",
+        "location": "Turin",
+        "url": "https://www.sistinf.it",
+        "position": "Software Developer",
+        "summary": "I have implemented a few minor parts in the backend of a prototype web application for [Reale Mutua Assicurazione](https://www.realemutua.it).",
+        "start": "2002-05",
+        "end": "2002-10",
+        "keywords": [
+          "Java,",
+          "EJB,",
+          "Mainframe"
+        ],
+        "highlights": [
+          "This project was my first exposure to the EJBs from the J2EE platform.",
+          "Complex integration with legacy systems written in COBOL language and running on an IBM mainframe."
+        ]
+      },
+      {
+        "employer": "Sistemi Informativi (Alenia)",
+        "location": "Turin",
+        "url": "https://en.wikipedia.org/wiki/Alenia_Aeronautica",
+        "position": "Software Developer",
+        "summary": "I've been the developer and maintainer of the import/export tools, used written in C++ for the IBM AIX platform, for the exchange of [Eurofighter Typhoon](https://en.wikipedia.org/wiki/Eurofighter_Typhoon) aircraft data and CAD models.",
+        "start": "2000-09",
+        "end": "2002-05",
+        "keywords": [
+          "C++,",
+          "AIX,",
+          "PLM"
+        ],
+        "highlights": [
+          "I have maintained a sync engine for the exchange of [ISO 10303 (STEP)](https://en.wikipedia.org/wiki/ISO_10303) product manufacturing pieces of information between the members of Eurofighter Typhoon consortium.",
+          "Gained the trust of the engineering team that used the data synchronized by the other Eurofighter partners.",
+          "I have survived in a challenging environment with little or no previous experience on the industry, the language, and the tools used."
+        ]
+      },
+      {
+        "employer": "Reboot Automation",
+        "location": "Turin",
+        "position": "Software Developer",
+        "summary": "I have maintained a warehouse management system for [Pininfarina](http://www.pininfarina.com/it/homepage/homepage.htm) automaker.",
+        "start": "1999-05",
+        "end": "2000-09",
+        "keywords": [
+          "VisualBasic,",
+          "Oracle"
+        ],
+        "highlights": [
+          "I've worked on code, support and client relations.",
+          "Learned that every line of code must have a purpose and a customer value.",
+          "Run the wild ride of a small business in a big company."
         ]
       }
     ]
   },
   "projects": [
     {
-      "title": "Awesome Project #1",
+      "title": "DickBott",
       "category": "FOSS",
-      "url": "http://project-page.org",
-      "repo": "https://project-repo.com",
-      "media": [],
-      "role": "Contributor",
-      "summary": "Show off your project work with a Markdown-and-HTML friendly summary of your role on the project. Software projects, creative projects, business projects can all appear here.",
-      "description": "A description of the project, for audiences that may not be familiar with it. Like the summary section, can include **Markdown** and inline <strong>HTML</strong> formatting.",
-      "highlights": [
-        "Project Highlight #1",
-        "Project Highlight #2",
-        "Project Highlight #3"
-      ],
-      "keywords": [
-        "Tag1",
-        "Tag2",
-        "Tag3",
-        "Tag4"
-      ]
-    },
-    {
-      "title": "Asteroids",
-      "category": "FOSS",
-      "url": "http://asteroids-demo.org",
-      "repo": "https://asteroids-repo.com",
+      "url": "https://github.com/zmoog/dickbott",
+      "repo": "https://github.com/zmoog/dickbott",
       "media": [],
       "role": "Creator",
-      "summary": "Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.",
-      "description": "A 3D Asteroids clone with Unreal 4 and cross-platform C++.",
+      "summary": "Conceived, designed, implemented, and created a framework for serverless Slack bots with TypeScript language on AWS and using Google's [DialogFlow](https://dialogflow.com) for NLP.",
+      "description": "",
       "highlights": [
-        "Project Highlight #1",
-        "Project Highlight #2",
-        "Project Highlight #3"
+        "This framework has been used to build multiple bots for automation such as build/destroy application environments, start/stop EC2 instances, RDS database instance or deliver infrastructure information to non-technical people.",
+        "Created a serverless application that can run at no cost using the AWS free tier resources.",
+        "Contributed to create and sustain an automation culture in the team and the company.",
+        "I used it to automate some family-related tasks, such as check the balance on the kid's school canteen or download the PDF version of the newspaper subscription and avoid their crappy app for iOS."
       ],
       "keywords": [
-        "C++",
-        "Unreal Engine",
-        "3D",
-        "DirectX"
+        "Slack,",
+        "Bot,",
+        "TypeScript,",
+        "Serverless,",
+        "AWS,",
+        "DialogFlow,",
+        "Lambda"
       ]
     }
   ],
   "education": {
-    "summary": "Optional overall education summary. Not used in most themes.",
-    "level": "degree",
-    "degree": "BSCS",
+    "summary": "Diploma di Maturità Tecnica Industriale.",
+    "level": "diploma",
     "history": [
       {
-        "institution": "Acme University",
-        "title": "BSCS",
-        "url": "http://acmeuniversity.edu",
-        "start": "2004-09",
-        "end": "2009-06",
-        "grade": "3.5",
-        "summary": "Graduate of Acme University, summer of 2009. Go [Coyotes](https://en.wikipedia.org/wiki/Coyote)!",
+        "institution": "Istituto Tecnico Industriale Statale Enzo Ferrari di Susa",
+        "title": "Perito",
+        "url": "http://www.ferrarisusa.gov.it/",
+        "start": "1989-09",
+        "end": "1994-06",
+        "grade": "42/60",
+        "summary": "Graduate of Istituto Tecnico Industriale Statale, summer of 1994.",
         "curriculum": [
-          "Data Algorithms",
-          "Optimization",
-          "Neural Networks",
-          "C",
-          "C++",
-          "Java",
-          "HTTP",
-          "TCP/IP"
+          "Electronics,",
+          "Algorithms,",
+          "C,",
+          "Pascal"
         ]
-      }
-    ]
-  },
-  "service": {
-    "summary": "",
-    "history": [
-      {
-        "flavor": "volunteer",
-        "position": "Volunteer Coordinator",
-        "organization": "The Mommies Network",
-        "url": "http://themommiesnetwork.org",
-        "start": "2006-06",
-        "summary": "A summary of your volunteer experience at this organization. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "highlights": []
-      },
-      {
-        "flavor": "military",
-        "position": "MOS",
-        "organization": "Air Force",
-        "url": "https://service-website.mil",
-        "start": "2004",
-        "summary": "A summary of your service experience with this organization. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "highlights": []
       }
     ]
   },
   "skills": {
     "sets": [
       {
-        "name": "Web Development",
+        "name": "Software Development",
         "level": "advanced",
         "skills": [
-          "LAMP",
-          "JavaScript",
-          "HTML 5",
-          "Angular.js",
-          "jQuery",
-          "Sass",
-          "LESS"
+          "Java,",
+          "Python,",
+          "TypeScript,",
+          "Git,",
+          "Linux"
         ]
       },
       {
-        "name": "Ninjitsu",
+        "name": "Spring Ecosystem",
+        "level": "advanced",
+        "skills": [
+          "Framework,",
+          "Integration,",
+          "Batch,",
+          "Security,",
+          "Boot,",
+          "Cloud"
+        ]
+      },
+      {
+        "name": "Infrastructure",
         "level": "intermediate",
         "skills": [
-          "Tokagure Ryu",
-          "Shuriken",
-          "Yogen"
+          "AWS,",
+          "Terraform,",
+          "Ansible,",
+          "Jenkins,",
+          "Docker,",
+          "Networking"
         ]
       },
       {
-        "name": "Skillset #3",
+        "name": "Database",
+        "level": "intermediate",
+        "skills": [
+          "PostgreSQL,",
+          "MySQL,",
+          "Redis,",
+          "DynamoDB,",
+          "Oracle,",
+          "iBatis/myBatis"
+        ]
+      },
+      {
+        "name": "Learning Now",
         "level": "beginner",
         "skills": [
-          "Your",
-          "keywords",
-          "here"
+          "RxJS,",
+          "Serverless"
         ]
       }
     ],
     "list": []
   },
-  "samples": [
-    {
-      "title": "Work Sample #1",
-      "summary": "A technical or creative **work sample**.",
-      "url": "http://project-repo.com",
-      "date": "2015"
-    },
-    {
-      "title": "Creative Sample #2",
-      "summary": "Another technical or creative sample. You can use [Markdown](https://daringfireball.net/projects/markdown/) here.",
-      "url": "http://project-repo.com",
-      "date": "2015"
-    }
-  ],
-  "writing": [
-    {
-      "title": "My Blog",
-      "publisher": {
-        "name": "Medium.com",
-        "url": "https://medium.com"
-      },
-      "flavor": "blog",
-      "date": "2010",
-      "summary": "Your blog or online home.",
-      "url": "http://coding-snorer.com"
-    },
-    {
-      "title": "Something I Wrote Once",
-      "flavor": "essay",
-      "date": "2009",
-      "summary": "List your blogs, articles, essays, novels, and dissertations.",
-      "publisher": {
-        "name": "Acme University Press",
-        "url": "http://press.acmeuniversity.edu"
-      },
-      "url": "http://codeproject.com/something-i-wrote-once"
-    }
-  ],
   "reading": [
     {
-      "title": "Other Copenhagens",
+      "title": "The Devops Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations",
       "flavor": "book",
-      "url": "http://www.amazon.com/Other-Copenhagens-And-Stories/dp/0984749209",
-      "author": "Edmund Jorgensen"
+      "url": "https://www.amazon.it/Devops-Handbook-World-Class-Reliability-Organizations/dp/1942788002/",
+      "author": "Gene Kim, Jez Humble, Patrick Debois, John Willis and John Allspaw.",
+      "date": "2017-04-07",
+      "summary": "For decades, technology leaders have struggled to balance agility, reliability, and security, and the consequences of failure have never been greater. The effective management of technology is critical for business competitiveness. High-performing organizations are 2.5 times more likely to exceed profitability, market share, and productivity goals.The DevOps Handbook shows leaders how to create the cultural norms and the technical practices necessary to maximize organizational learning, increase employee satisfaction, and win in the marketplace."
     },
     {
-      "title": "r/programming",
-      "flavor": "website",
-      "url": "https://www.reddit.com/r/programming"
-    },
-    {
-      "title": "Hacker News",
-      "flavor": "website",
-      "url": "https://news.ycombinator.com/"
+      "title": "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
+      "flavor": "book",
+      "url": "https://www.amazon.it/Phoenix-Project-DevOps-Helping-Business/dp/1942788290/",
+      "author": "Gene Kim, Kevin Behr, George Spafford.",
+      "date": "2017-04-07",
+      "summary": "Bill has 90 days to fix a behind-schedule IT project, or his entire department will be outsourced. Fortunately, he has the help of a prospective board member, whose 'Three Ways' philosophy might just save the day."
     }
   ],
-  "recognition": [
+  "speaking": [
     {
-      "flavor": "award",
-      "from": "HackMyResume",
-      "title": "Awesomeness Award",
-      "event": "HMR Release",
-      "url": "https://fluentdesk.com/hackmyresume",
-      "date": "2016",
-      "summary": "Thanks for being a HackMyResume / FluentCV user!"
-    },
+      "title": "Tutor",
+      "event": "Django Girls",
+      "location": "Turin, Italy",
+      "date": "2016-07",
+      "highlights": [
+      ],
+      "keywords": [
+        "Django,",
+        "Ansible,",
+        "Coaching"
+      ],
+      "summary": "I have been a tutor in the summer 2016 edition of [Django Girls in Turin](https://djangogirls.org/turin/). Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources, and support."
+    },    
     {
-      "flavor": "industry",
-      "from": "Big Software",
-      "title": "MVP: SpinWidget Technology",
-      "event": "Yearly Roundup",
-      "date": "2015-08-03",
-      "summary": "For work in promotion and popularization of SpinWidget technology."
+      "title": "Automatizzare i deploy di applicazioni Django con Ansible",
+      "event": "PyCon",
+      "location": "Florence, Italy",
+      "date": "2015-04",
+      "highlights": [
+        "Describes what Ansible is, what are its components (Playbook, Play, Inventory, Task, and Module).",
+        "Make the deployment operations accessible to non-technical members of the team, and propose the use of a chatbot.",
+        "Using Ansible for the deployment process remains well described and always up-to-date."
+      ],
+      "keywords": [
+        "Django,",
+        "Ansible,",
+        "Automation"
+      ],
+      "summary": "This talk (in Italian, with [abstract](https://www.pycon.it/conference/talks/automatizzare-i-deploy-di-applicazioni-django-con-ansible) and the [complete YouTube video](https://www.youtube.com/watch?v=yRaL3IkBwNs) available) describes how it's possible to perform frequent and reliable deployments of Django-based web applications using Ansible."
     }
-  ],
-  "references": [
-    {
-      "name": "John Doe",
-      "category": "professional",
-      "role": "Manager @ Somewhere Inc.",
-      "private": true,
-      "summary": "Contact information available on request.",
-      "contact": [
-        {
-          "flavor": "email",
-          "value": "john.doe@somewhere.com"
-        }
-      ]
-    },
-    {
-      "name": "Jane Q. Fullstacker",
-      "category": "technical",
-      "summary": "Contact information available on request.",
-      "role": "Coworker",
-      "private": true,
-      "contact": [
-        {
-          "flavor": "email",
-          "value": "jane.fullstacker@somewhere.com"
-        }
-      ]
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "John Doe",
-      "flavor": "professional",
-      "quote": "Such-and-such is awesome! I'd hire him/her again in a second!",
-      "private": false
-    },
-    {
-      "name": "Somebody Important",
-      "flavor": "technical",
-      "quote": "Hands-down *the best developer/manager/spelunker/coworker/etc* I've ever worked with. Emphasis *mine!*",
-      "private": false
-    }
+
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Italian",
       "level": "native"
     },
     {
-      "language": "Spanish",
-      "level": "advanced"
-    },
-    {
-      "language": "C++",
+      "language": "English",
       "level": "intermediate"
-    }
-  ],
-  "interests": [
-    {
-      "name": "GitHub",
-      "summary": "Regular GitHub user and tinkerer.",
-      "keywords": [
-        "GitHub",
-        "git",
-        "GitHub Desktop (OS X)",
-        "LFS",
-        "GitHub API"
-      ]
-    },
-    {
-      "name": "chess",
-      "summary": "Avid chess player.",
-      "keywords": [
-        "Sicilian",
-        "King's Gambit",
-        "Ruy Lopez"
-      ]
     }
   ]
 }
