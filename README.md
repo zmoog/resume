@@ -4,7 +4,7 @@ This is my personal résumé in the JSON format.
 
 [![Build Status](https://travis-ci.org/zmoog/resume.svg?branch=master)](https://travis-ci.org/zmoog/resume)
 
-## Where I can find the rendered version?
+## Where can I find the rendered version?
 
 This resume is available in multiple formats that are built automatically using [Travis CI](https://travis-ci.org/zmoog/resume/builds) each time I push new commits to the master branch.
 
